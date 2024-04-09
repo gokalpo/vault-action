@@ -3,6 +3,7 @@ on:
   push:
     paths:
     - '.github/workflows/**'
+  pull_request:
 
 jobs:
   actionlint:
